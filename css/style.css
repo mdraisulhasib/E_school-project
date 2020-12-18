@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	flex: 0 0 auto;
+}
+body{
+	font-size: 16px;
+	color: #333;
+	font-family: 'Roboto', sans-serif;
+}
+img{
+	max-width: 100%;
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap-reverse;
+	align-items: center;
+}
+
+.btn{text-decoration: none;padding: 10px 20px;color: #333;font-weight: 400;font-size: 20px;transition-duration: 0.3s;border-radius: 30px;display: inline-block;}
+.btn:hover{background: #21B573;color: #fff;}
+
+.container{
+	width: 1200px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.banner_section{background: #F0FFF0;padding-bottom: 59px;}
+header{padding: 20px 0;}
+.logo{width: 15%;flex: 0 0 auto;}
+.logo a{}
+.logo a img{}
+
+nav{width: 85%;flex: 0 0 auto;}
+nav ul{justify-content: flex-end;}
+nav ul li{list-style: none;}
+nav ul li a{text-decoration: none;padding: 7px 20px;color: #333;font-weight: 400;font-size: 20px;transition-duration: 0.3s;border-radius: 30px;display: block;}
+nav ul li a:hover{background: #21B573;color: #fff;}
+
+.banner_content{width: 50%;}
+.banner_content h4{color: #f61111c4;font-size: 20px;font-weight: 400;padding: 8px 0;padding-top: 50px;}
+.banner_content h1{font-size: 70px;color: #1a1919;font-weight: 700;}
+.banner_content h1 span{color: #6ac96a;}
+.banner_content p{padding: 20px 0;line-height: 2;max-width: 500px;color: #595555;}
+.banner_content a{}
+
+.banner_img{width: 50%;}
+.banner_img img{}
+
+
+.feature_section{padding: 50px 0;}
+.col_3{}
+.feature{background: honeydew;text-align: center;padding: 40px;border-radius: 15px;transition-duration: 0.3s;}
+.feature img{height: 80px;}
+.feature h3{padding-top: 20px;font-size: 25px;font-weight: 500;color: #333;}
+.feature p{}
+.feature:hover{box-shadow: 0px 10px 40px #0000001c;background: #fff;}
+
+
+.course_section{margin-bottom: 50px;}
+.heading{}
+.heading h2{text-align: center;font-size: 40px;color: #56548c;}
+
+.col_4{width: 33.33%;padding: 15px;}
+.course{padding: 15px;box-shadow: 0px 10px 40px #0000000a;border-radius: 15px;}
+.course img{}
+.course h3{padding-top: 20px;font-size: 25px;font-weight: 500;color: #333;}
+.course span{display: block;padding: 15px 0;}
+.course a{}
+.course ul{justify-content: space-between;}
+.course ul li{list-style: none;}
+.course ul li i{}
+
+.testimonial_section .flex{justify-content: center;}
+.testimonial_section{text-align: center;}
+.testimonial_section .flex:{justify-content: center;}
+.client_img{width: 15%;padding: 15px;}
+.client_img img{}
+
+
+.client_content{width: 67%;padding: 15px;}
+.client_content p{max-width: 600px;line-height: 1.5;margin-bottom: 50px;}
+
+footer{background: #282531;text-align: center;padding: 50px 0;}
+footer p{color: #fff;text-align: center;}
+.col_3{width: 25%;padding: 15px;}
+.col_3 p{color: #333;padding: 5px 0;font-weight: 400;}
+.col_3 ul{padding: 20px;}
+.col_3 ul li{list-style: none;}
+.col_3 ul li a{text-decoration: none;color: #fff;font-size: 16px;padding: 9px 0;display: inline-block;}
+.col_3 ul li a:hover{opacity: 0.5;}
+.col_3 ul li strong{color: #fff;font-size: 25px;}
+}
+
